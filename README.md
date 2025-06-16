@@ -89,6 +89,14 @@ The frontend provides the user interface for chatting.
 
 1.  The Next.js frontend connects to the Spring Boot backend via WebSockets (using SockJS and StompJS).
 2.  Users enter a username to join the chat.
-3.  When a user sends a message, it's sent to the backend over the WebSocket connection.
+3.  When a user sends a message, it\'s sent to the backend over the WebSocket connection.
 4.  The backend broadcasts the message to all connected clients.
 5.  The frontend receives the message and displays it in the chat interface.
+
+## Features
+
+- Real-time messaging using WebSockets.
+- User-friendly interface built with Next.js and Tailwind CSS.
+- Simple username-based entry to chat rooms.
+- Scalable backend built with Spring Boot.
+- Modern tech stack including Java 21, Next.js 15, and React 19.
